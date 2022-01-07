@@ -1,0 +1,17 @@
+
+.novo-cor {
+    background-color: #ffaaff;
+}
+
+.vidro {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.gradiente {
+    background-image: linear-gradient(to right, #b952b9, #ffaaff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
