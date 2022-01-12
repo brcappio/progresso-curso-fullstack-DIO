@@ -1,6 +1,7 @@
 var currentNumberWrapper = document.getElementById("currentNumber");
 var currentNumber = 0;
 
+
 function increment() {
     currentNumber++;
     currentNumberWrapper.innerHTML = currentNumber;
@@ -10,7 +11,7 @@ function increment() {
     if (currentNumber >= 10) {
         document.getElementById("mais").disabled = true;
     } else {
-        document.getElementById("mais").disabled = false;
+        document.getElementById("menos").disabled = false;
     }
 }
 
@@ -22,8 +23,8 @@ function decrement() {
     }
     if (currentNumber <= -10) {
         document.getElementById("menos").disabled = true;
-    } else {
-        document.getElementById("menos").disabled = false;
+    } else {        
+        document.getElementById("mais").disabled = false;
     }
 }
 
